@@ -1,0 +1,37 @@
+{
+  "name": "devtocli",
+  "version": "1.4.7",
+  "description": "A simple package to let you use Dev.to in Terminal",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthology/dev.to-cli.git"
+  },
+  "author": "Sarthology",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarthology/dev.to-cli/issues"
+  },
+  "homepage": "https://github.com/sarthology/dev.to-cli#readme",
+  "dependencies": {
+    "algoliasearch": "^3.32.0",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.2",
+    "clui": "^0.3.6",
+    "commander": "^2.19.0",
+    "esc-exit": "^2.0.1",
+    "inquirer": "^6.2.1",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "opn": "^5.4.0",
+    "x-ray": "^2.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "ph": "src/index.js"
+  }
+}
