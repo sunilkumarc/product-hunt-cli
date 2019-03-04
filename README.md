@@ -34,7 +34,7 @@ Before running this locally you must have these installed
 
 ## Installing
 It's built in node so the process to start this is really easy
-1. `npm install -g devtocli`
+1. `npm install -g product-hunt-cli`
 2. `ph`
 
 ## License

@@ -1,18 +1,18 @@
 {
-  "name": "devtocli",
-  "version": "1.4.7",
-  "description": "A simple package to let you use Dev.to in Terminal",
+  "name": "product-hunt-cli",
+  "version": "1.0.0",
+  "description": "A package to access product hunt from CLI",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sarthology/dev.to-cli.git"
+    "url": "git+https://github.com/sunilkumarc/product-hunt-cli.git"
   },
   "author": "Sarthology",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sarthology/dev.to-cli/issues"
+    "url": "https://github.com/sunilkumarc/product-hunt-cli/issues"
   },
-  "homepage": "https://github.com/sarthology/dev.to-cli#readme",
+  "homepage": "https://github.com/sunilkumarc/product-hunt-cli#readme",
   "dependencies": {
     "algoliasearch": "^3.32.0",
     "chalk": "^2.4.2",
