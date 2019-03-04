@@ -1,116 +1,44 @@
-<div align="center"><img src="https://i.imgur.com/XHprWPp.png"></div>
-
-## Dev.to CLI
-
-Wanted to get [Dev.to](https://www.dev.to/) on your terminal? Ahoy! now you can.
+## Product Hunt CLI
+A command line tool to access product hunt's products right from your terminal.
+Inspired by Team Xenox's [Dev.To CLI](https://teamxenox.github.io/devtocli/)
 
 ## Usage
+#### 1. Check products from home page
+![Alt Text](http://g.recordit.co/BLNgHRZojy.gif)
 
-#### 1. Check the top posts
+#### 2. Check latest products
+![Alt Text](http://g.recordit.co/kgGQHru1RZ.gif)
 
-![](https://media.giphy.com/media/pO3c8KoeQoUktf9Pmn/giphy.gif)
+#### 3. Check upcoming products
+![Alt Text](http://g.recordit.co/V0nTuMJyiL.gif)
 
-You can get top posts from the Dev.to feed in your terminal using:
+#### 4. Check all jobs
+![Alt Text](http://g.recordit.co/DSPFda66Fk.gif)
 
-```
-devto
-```
+#### 5. Check remote jobs
+![Alt Text](http://g.recordit.co/CurgO7EZrW.gif)
 
-#### 2. Check top posts by tag
+#### 6. Check products by topic
+![Alt Text](http://g.recordit.co/Or3na1BIGI.gif)
 
-![](https://media.giphy.com/media/88iIj62WlG65FValeD/giphy.gif)
+#### 7. Search for products
+![Alt Text](http://g.recordit.co/zYHh6AX6p2.gif)
 
-Easy post search using the tag, you can use
-
-
-```
-devto tag javascript
-```
-
-
-if you don't know the keyword, you can use the search tag feature using
-
-![](https://media.giphy.com/media/7SHzSDVDi3M4z5o3nF/giphy.gif)
-
-```
-devto tag
-```
-
-#### 3. Check recent posts by any author
-
-![](https://media.giphy.com/media/2sYdeNhrIJysqiS9Of/giphy.gif)
-
-You can check 5 most recent posts of any author using
-
-```
-devto author sarthology
-```
-
-#### 4. Check top posts by timeline
-
-![](https://media.giphy.com/media/300WBW4zkSiFNBBHNM/giphy.gif)
-
-You can check top posts on Dev.to for a specific timeframe using
-
-```
-devto top week
-```
-
-There are several options like `week` `month` `year` `infinity`. If you want to see the options just type
-
-```
-devto top
-```
-
-#### 5. Search top posts by a keyword
-
-![](https://media.giphy.com/media/2sj20bitpaOrwjIwGi/giphy.gif)
-
-Use the powerful search feature to find posts using keywords
-
-```
-devto search sarthology
-```
-
-With this, you can even search posts using a tag, author name, title... basically anything.
-
-#### 6. Check latest posts on Dev.to
-
-![](https://media.giphy.com/media/4WFhDHwrwB8Wq2EJFv/giphy.gif)
-
-You can also see the latest posts on Dev.to using
-
-```
-devto latest
-```
+#### 8. Search for products by author
+![Alt Text](http://g.recordit.co/d2nLeFn4QG.gif)
 
 ## Prerequisites
-
 Before running this locally you must have these installed
-
 - Node
 - npm
+
 ## Installing
-
 It's built in node so the process to start this is really easy
-
-1. `npm install devtocli -g`
-2. `devto`
-
-That's it, you will see it running in your terminal.
-
-## Contributing
-
-Feel free to contribute to this project and treat it like your own. 😊
+1. `npm install -g devtocli`
+2. `ph`
 
 ## License
-
 MIT License
 
 ## Author
-
-[Sarthak Sharma](https://twitter.com/sarthology)
-
-## Acknowledgments
-
-Thanks Dev.to👩🏻‍💻👨🏻‍💻, for being a massively inspiring platform.
+[Sunil Kumar C](https://twitter.com/sunilc_)
