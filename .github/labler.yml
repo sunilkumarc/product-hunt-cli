@@ -1,0 +1,11 @@
+dev:
+  - base-branch: 'dev'
+
+qa-staging:
+  - base-branch: 'qa-staging'
+
+test:
+  - base-branch: 'test'
+
+main:
+  - base-branch: 'main'
